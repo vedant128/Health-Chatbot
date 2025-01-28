@@ -2,7 +2,7 @@ from flask import Flask, request, jsonify, render_template
 import google.generativeai as genai
 
 # Configure the Google AI API key
-genai.configure(api_key="AIzaSyCE6bn-ZTKTfBRT-cXn3YFk4Fm8C7MfUmM")
+genai.configure(api_key="#Your Api key")
 
 app = Flask(__name__)
 
